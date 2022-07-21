@@ -68,45 +68,6 @@ Management System</p>
 
 
 
-// {/* <Grid textAlign='center' style={{ height: '100vh',zIndex:'2' }} verticalAlign='middle'>
-//     <Grid.Column style={{ maxWidth: 450 }}> */}
-    //   <Header as='h2' color='teal' textAlign='center'>
-    //     <Image src='/logo.png' /> Log-in to your account
-    //   </Header>
-    //   <Form size='large'>
-    //     <Segment stacked>
-    //       {/* <Form.Input fluid icon='user' iconPosition='left' placeholder='E-mail address' /> */}
-    //       <Form.Input
-    //       icon='user'
-    //         fluid
-    //         value={roll_no}
-    //         iconPosition='left'
-    //         placeholder='Employee Id'
-    //         type='input'
-    //         onChange={(e) => setRoll_no(e.target.value)}
-    //       />
-    //       <Form.Input
-    //         fluid
-    //         icon='lock'
-    //         iconPosition='left'
-    //         placeholder='Password'
-    //         type='password'
-    //         value={password}
-    //         onChange={(e) => setPassword(e.target.value)}
-    //       />
-
-    //       <Button color='teal' fluid size='large' onClick={() => PostData()}>
-    //         Login
-    //       </Button>
-    //     </Segment>
-    //   </Form>
-    //   <Message>
-    //   <Link>Go To Home Page</Link>
-    //   </Message>
-    // {/* </Grid.Column> */}
-//   {/* </Grid> */}
-
-
     );
 };
 

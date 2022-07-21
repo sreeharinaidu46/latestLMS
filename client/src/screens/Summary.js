@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
-// import {getAllIssuedBook,getEveryDayBook} from "../actions/Issue_action"
-// import { useDispatch, useSelector } from 'react-redux'
-// import moment from 'moment';
+
 import { useState } from "react";
 import { Grid, Segment, Card, Image, Icon, GridColumn } from "semantic-ui-react";
 
@@ -27,7 +25,7 @@ const Issue_Return = () => {
   const [givenMonths, setMonths] = useState([]);
   const [frenBook, setFreqBook] = useState([]);
 
-  //     const dispatch = useDispatch();
+
   useEffect(async () => {
     const ret = await axios.get("/api/issues/getAvgDay");
     console.log(ret.data);
@@ -39,7 +37,7 @@ const Issue_Return = () => {
     const rens = await axios.get("/api/issues/freqBook");
     setFreqBook(...frenBook, rens.data);
   }, []);
-//const filterStudent = students && students.filter((item) => !item.isAdmin);
+
   const filterAvg=avg&&avg.filter((data)=>data.countss>0)
  
 
